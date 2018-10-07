@@ -1,12 +1,12 @@
 // Normalize Month
 
 // Gets the month utterance spoken by the user and normalizes to standard name.
-// For example, "long weekends in {jan}" or "long weekends in {first} month of 2018"
+// For example, "astronomical events in {jan}" or "astronomical events in {first} month of 2018"
 // gets normalized to {january}
 
 exports.normalizeMonth = function(month) {
     let monthVal;
-    
+
     switch (month) {
         case "january":
         case "jan":
@@ -97,7 +97,7 @@ exports.normalizeMonth = function(month) {
         }
         break;
     }
-    
+
     return monthVal;
 };
 
@@ -112,7 +112,7 @@ exports.filterByMonth = function(month, arr) {
     		monthArr.push(week)
         }
     });
-    
+
     return monthArr;
 };
 
