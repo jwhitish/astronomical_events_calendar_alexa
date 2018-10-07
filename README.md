@@ -15,3 +15,6 @@ The Skill is currently live in the US and you can try it out on your Alexa devic
 ##### Phrases you can try:
 
 > Say "Alexa, ask long weekend calendar for the next astronomical event."
+
+### Credit
+Originally based off of Santhosh Sundar's [Long Weekends Calendar](https://github.com/Gigacore/Long-Weekend-Calendar-Alexa-Skill)
